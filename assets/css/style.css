@@ -2007,6 +2007,7 @@ img {
 @media (max-width: 767px) {
     .site-header .navbar-header .navbar-brand {
         font-size: 24px;
+        max-width: 260px !important;
     }
     .site-header #navbar .navbar-nav {
         margin: 0;
@@ -3902,6 +3903,7 @@ img {
 .about-section .quoter,
 .about-section-s3 .quoter {
     padding: 20px 0;
+    display: inline-block;
 }
 
 .about-section .quoter h4,
