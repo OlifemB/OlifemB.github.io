@@ -385,3 +385,11 @@
 .feature-grid {
     margin-bottom: 20px;
 }
+
+.flex {
+    display: flex;
+}
+
+.space-between {
+    justify-content: space-between;
+}
