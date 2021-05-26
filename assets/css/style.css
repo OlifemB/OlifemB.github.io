@@ -4695,9 +4695,8 @@ img {
 .contact-section .contact-form-col,
 .contact-section-s2 .contact-form-col,
 .contact-section-s3 .contact-form-col {
-    width: calc(50% + 85px);
+    width: calc(50%);
     float: right;
-    padding-right: 160px;
     position: relative;
 }
 
