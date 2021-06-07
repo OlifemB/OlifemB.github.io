@@ -8878,5 +8878,10 @@ img {
     margin-bottom: 1.8em;
 }
 
+input,
+textarea {
+    color: #CE6439 !important;
+}
+
 
 /*# sourceMappingURL=style.css.map */
