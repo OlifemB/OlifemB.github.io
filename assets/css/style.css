@@ -130,7 +130,7 @@ img {
     padding: 5px 10px;
     font-size: 16px;
     text-align: center;
-    display: none;
+    visibility: hidden;
 }
 
 @media (max-width: 767px) {
@@ -697,7 +697,7 @@ img {
     outline: 0;
     -webkit-box-shadow: none;
     box-shadow: none;
-    color: #595959;
+    color: #CE6439;
 }
 
 .form input:focus,
@@ -714,25 +714,25 @@ img {
 .form ::-webkit-input-placeholder {
     font-style: 14px;
     font-style: italic;
-    color: #595959;
+    color: #CE6439;
 }
 
 .form :-moz-placeholder {
     font-style: 14px;
     font-style: italic;
-    color: #595959;
+    color: #CE6439;
 }
 
 .form ::-moz-placeholder {
     font-style: 14px;
     font-style: italic;
-    color: #595959;
+    color: #CE6439;
 }
 
 .form :-ms-input-placeholder {
     font-style: 14px;
     font-style: italic;
-    color: #595959;
+    color: #CE6439;
 }
 
 .form select {
@@ -3904,6 +3904,8 @@ img {
 .about-section-s3 .quoter {
     padding: 20px 0;
     display: inline-block;
+    text-align: center;
+    width: 100%
 }
 
 .about-section .quoter h4,
@@ -4452,6 +4454,7 @@ img {
     text-align: center;
     position: relative;
     border: 1px solid #f1f1f1;
+    height: 100%;
 }
 
 @media (max-width: 991px) {
