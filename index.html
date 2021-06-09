@@ -200,7 +200,7 @@
                 <div class="row">
                     <div class="col col-md-6 col-xs-12">
                         <div class="flex align-center justify-center">
-                            <img class="img-rounded img-responsive" src="assets/images/team2/img-1.png" alt>
+                            <img class="img-rounded img-responsive" src="assets/images/team2/img-1.png" style="max-width: 340px" a alt>
                         </div>
                         <!-- <p class="mt-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
                             Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p> -->
@@ -209,32 +209,30 @@
                                 <h4>Сиринов Александр Иванович</h4>
                                 <span>заведующий консультацией, адвокат</span>
                             </div>
-                            <div class="flex align-center justify-center">
+                            <!-- <div class="flex align-center justify-center">
                                 <img src="assets/images/signature.png" alt>
-                            </div>
+                            </div> -->
                         </div>
                     </div>
 
                     <div class="col col-md-6 col-xs-12">
                         <div class="flex align-center justify-center">
-                            <img class="img-rounded img-responsive" src="assets/images/team2/img-2.png" alt>
+                            <img class="img-rounded img-responsive" src="assets/images/about/about-2.png" style="max-width: 340px" alt>
                         </div>
-                        <p class="mt-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
 
                         <div class="flex space-between">
                             <div class="quoter">
                                 <h4>Сиринова Ольга Владимировна</h4>
                                 <span>адвокат</span>
-                            </div>
+                                <!-- </div>
                             <div class="flex align-center justify-center">
                                 <img src="assets/images/signature.png" alt>
+                            </div> -->
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-            <!-- end container -->
+                <!-- end container -->
         </section>
         <!-- end about-section -->
 
@@ -246,7 +244,7 @@
                     <div class="col col-lg-3 col-sm-6">
                         <div class="info-col">
                             <h4>Несколько шагов, необходимых для получения лучших юридических услуг</h4>
-                            <a href="#" class="theme-btn-s2">Свяжитесь с нами</a>
+                            <a href="#contacts" class="theme-btn-s2">Свяжитесь с нами</a>
                         </div>
                     </div>
                     <div class="col col-lg-3 col-sm-6">
@@ -440,7 +438,7 @@
                             </div>
                             <h5>Звните нам 24/7</h5>
                             <h2>8 812-326-87-41</h2>
-                            <a href="#" class="theme-btn-s3">Записаться на прием</a>
+                            <a href="#contacts" class="theme-btn-s3">Записаться на прием</a>
                         </div>
                     </div>
                 </div>
@@ -757,47 +755,47 @@
 
 
 
-    </div>
-    <!-- end of page-wrapper -->
+        </div>
+        <!-- end of page-wrapper -->
 
-    <script type="text/javascript">
-        document.addEventListener('DOMContentLoaded', () => {
-            const contactForm = document.querySelector('#contactForm');
-            contactForm.addEventListener('submit', (e) => {
-                e.preventDefault()
-                const formName = document.querySelector('#formName')
-                const formEmail = document.querySelector('#formEmail')
-                const formText = document.querySelector('#formText')
-                const success = document.querySelector('#success')
-                    // $.ajax({
-                    //     url: "https://formspree.io/f/xayaoglw",
-                    //     method: "POST",
-                    //     dataType: "json",
-                    //     data: {
-                    //         name: formName.value,
-                    //         email: formEmail.value,
-                    //         message: formText.value
-                    //     }
-                    // })
-                formName.value = ""
-                formEmail.value = ""
-                formText.value = ""
-                success.style.display = 'block'
-                setTimeout(() => success.style.display = 'none', 3000)
+        <script type="text/javascript">
+            document.addEventListener('DOMContentLoaded', () => {
+                const contactForm = document.querySelector('#contactForm');
+                contactForm.addEventListener('submit', (e) => {
+                    e.preventDefault()
+                    const formName = document.querySelector('#formName')
+                    const formEmail = document.querySelector('#formEmail')
+                    const formText = document.querySelector('#formText')
+                    const success = document.querySelector('#success')
+                        // $.ajax({
+                        //     url: "https://formspree.io/f/xayaoglw",
+                        //     method: "POST",
+                        //     dataType: "json",
+                        //     data: {
+                        //         name: formName.value,
+                        //         email: formEmail.value,
+                        //         message: formText.value
+                        //     }
+                        // })
+                    formName.value = ""
+                    formEmail.value = ""
+                    formText.value = ""
+                    success.style.visibility = 'visible'
+                    setTimeout(() => success.style.visibility = 'hidden', 3000)
+                })
             })
-        })
-    </script>
+        </script>
 
-    <!-- All JavaScript files
+        <!-- All JavaScript files
     ================================================== -->
-    <script src="assets/js/jquery.min.js"></script>
-    <script src="assets/js/bootstrap.min.js"></script>
+        <script src="assets/js/jquery.min.js"></script>
+        <script src="assets/js/bootstrap.min.js"></script>
 
-    <!-- Plugins for this template -->
-    <script src="assets/js/jquery-plugin-collection.js"></script>
+        <!-- Plugins for this template -->
+        <script src="assets/js/jquery-plugin-collection.js"></script>
 
-    <!-- Custom script for this template -->
-    <script src="assets/js/script.js"></script>
+        <!-- Custom script for this template -->
+        <script src="assets/js/script.js"></script>
 </body>
 
 </html>
