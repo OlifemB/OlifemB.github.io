@@ -395,3 +395,83 @@
 .justify-center {
     justify-content: center;
 }
+
+.col-xs-5th,
+.col-sm-5th,
+.col-md-5th,
+.col-lg-5th {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.col-xs-5th {
+    width: 20%;
+    float: left;
+}
+
+@media (min-width: 768px) {
+    .col-sm-5th {
+        width: 20%;
+        float: left;
+    }
+}
+
+@media (min-width: 992px) {
+    .col-md-5th {
+        width: 20%;
+        float: left;
+    }
+}
+
+@media (min-width: 1200px) {
+    .col-lg-5th {
+        width: 20%;
+        float: left;
+    }
+}
+
+.block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 5px;
+    left: 0%;
+    right: 82.11%;
+    top: 0px;
+    border: 2px solid #F3F0F0;
+    box-sizing: border-box;
+    border-radius: 8px;
+}
+
+.card-text {
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 15px 20px;
+    width: 100%;
+    border: 2px solid #F3F0F0;
+    box-sizing: border-box;
+    border-radius: 8px;
+    margin: 5px 0px;
+    text-align: center;
+    transition-duration: .3s;
+    cursor: pointer;
+}
+
+.card-text:hover {
+    box-shadow: 0 0 20px #0003;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.card-title {
+    font-size: 16px !important;
+}
+
+p.card-description {
+    font-size: 14px;
+}
