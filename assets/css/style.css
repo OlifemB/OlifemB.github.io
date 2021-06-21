@@ -4628,13 +4628,6 @@ img {
     opacity: 0.7;
 }
 
-@media screen and (min-width: 1450px) {
-    .contact-section,
-    .contact-section-s2,
-    .contact-section-s3 {
-        margin: -219px 80px 0;
-    }
-}
 
 @media (max-width: 1449px) {
     .contact-section,
