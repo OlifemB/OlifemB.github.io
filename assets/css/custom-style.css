@@ -438,13 +438,18 @@
   justify-content: space-between;
   align-items: center;
   padding: 30px 5px;
-  left: 0%;
-  right: 82.11%;
   top: 0px;
   border: 2px solid #f3f0f0;
   box-sizing: border-box;
   border-radius: 8px;
   transition-duration: 0.3s;
+}
+
+@media (max-width: 991px) {
+  .block { 
+      margin: 10px auto;
+      width: 70%;
+  }
 }
 
 .hover-shadow {
@@ -468,6 +473,12 @@
   transition-duration: 0.3s;
   cursor: pointer;
 }
+@media (max-width: 991px) {
+  .card-text { 
+      margin: 5px auto;
+      width: 70%;
+  }
+}
 
 .flex-column {
   flex-direction: column;
@@ -487,4 +498,12 @@ p.card-description {
   left: 50%;
   width: calc(100% - 100px);
   transform: translateX(-50%);
+}
+
+@media (max-width: 768px) {
+  .btn-card{
+    position: static;
+    margin: 10px auto;
+  transform: translateX(0);
+  }
 }

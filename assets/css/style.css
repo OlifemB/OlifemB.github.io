@@ -1918,6 +1918,7 @@ img {
 @media screen and (min-width: 992px) {
     .site-header .navbar-header .open-btn {
         display: none;
+        background-color: #1c202e !important;
     }
     .site-header #navbar .close-navbar {
         display: none;
@@ -2606,6 +2607,7 @@ img {
 --------------------------------------------------------------*/
 
 @media screen and (min-width: 992px) {
+
     .header-style-2,
     .header-style-3 {
         position: relative;
@@ -2746,7 +2748,7 @@ img {
 .hero-slider .slide-inner,
 .hero-slider .hero-inner {
     width: 100%;
-    height: 100%;
+    height:100%;
     position: absolute;
     left: 0;
     top: 0;
@@ -2811,13 +2813,12 @@ img {
 --------------------------------------------------------------*/
 
 .hero-style-1 {
-    height: calc(100vh - 62px);
+    height:100vh;
     /*** swiper custom pagination ***/
 }
 
 @media (max-width: 991px) {
     .hero-style-1 {
-        height: 600px;
         text-align: center;
     }
 }
@@ -4001,9 +4002,10 @@ img {
     transition-duration: .3s;
 }
 
-@media (max-width: 991px) {
+@media (max-width: 768px) {
     .feature-section .feature-grid {
         margin-bottom: 15px;
+        height: 100%;
     }
 }
 
