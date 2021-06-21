@@ -396,6 +396,10 @@
   justify-content: center;
 }
 
+.text-justify {
+  text-align: justify;
+}
+
 .col-xs-5th,
 .col-sm-5th,
 .col-md-5th,
@@ -446,9 +450,9 @@
 }
 
 @media (max-width: 991px) {
-  .block { 
-      margin: 10px auto;
-      width: 70%;
+  .block {
+    margin: 10px auto;
+    width: 70%;
   }
 }
 
@@ -474,9 +478,9 @@
   cursor: pointer;
 }
 @media (max-width: 991px) {
-  .card-text { 
-      margin: 5px auto;
-      width: 70%;
+  .card-text {
+    margin: 5px auto;
+    width: 70%;
   }
 }
 
@@ -490,20 +494,29 @@
 
 p.card-description {
   font-size: 14px;
+  text-align: left;
 }
 
 .btn-card {
   position: absolute;
-  bottom: 60px;
+  bottom: 30px;
   left: 50%;
-  width: calc(100% - 100px);
+  width: auto;
   transform: translateX(-50%);
 }
 
 @media (max-width: 768px) {
-  .btn-card{
+  .btn-card {
     position: static;
-    margin: 10px auto;
-  transform: translateX(0);
+    margin: 20px auto;
+    transform: translateX(0);
   }
+}
+
+.img-bg-gray{
+  background-color: #eee;
+}
+
+.widget li{
+  font-size: 14px !important;
 }

@@ -3997,8 +3997,13 @@ img {
 .feature-section .feature-grid {
     border: 2px solid #f3f0f0;
     padding: 40px 28px;
-    height: 400px;
+    height: 350px;
     border-radius: 5px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.feature-grid{
     transition-duration: .3s;
 }
 
@@ -4006,6 +4011,8 @@ img {
     .feature-section .feature-grid {
         margin-bottom: 15px;
         height: 100%;
+        text-align: center;
+        width: 70%;
     }
 }
 
@@ -6161,6 +6168,7 @@ img {
     left: 0;
     top: 0;
 }
+
 
 .about-pg-cta-section {
     margin: 0;
@@ -8887,6 +8895,4 @@ input,
 textarea {
     color: #CE6439 !important;
 }
-
-
 /*# sourceMappingURL=style.css.map */
