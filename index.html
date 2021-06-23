@@ -31,11 +31,7 @@
 </head>
 
 <body>
-
-    <!-- start page-wrapper -->
     <div class="page-wrapper">
-
-        <!-- start preloader -->
         <div class="preloader">
             <div class="sk-chase">
                 <div class="sk-chase-dot"></div>
@@ -46,9 +42,7 @@
                 <div class="sk-chase-dot"></div>
             </div>
         </div>
-        <!-- end preloader -->
 
-        <!-- Start header -->
         <header id="header" class="site-header header-style-1">
             <div class="topbar">
                 <div class="container">
@@ -76,7 +70,6 @@
                     </div>
                 </div>
             </div>
-            <!-- end topbar -->
 
             <nav class="navigation navbar navbar-default">
                 <div class="container">
@@ -100,9 +93,7 @@
                             <li><a href="#blog">Блог</a></li>
                         </ul>
                     </div>
-                    <!-- end of nav-collapse -->
                 </div>
-                <!-- end of container -->
             </nav>
         </header>
         <!-- end of header -->
@@ -132,6 +123,26 @@
         </section>
         <!-- end of hero slider -->
 
+        <section id="about" class="">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6 col-xs-12">
+                        <div class="block-user">
+                            <img src="assets/images/about/about-1.png"/>
+                            <p style="padding-top: 10px;">Сиринов Александр Иванович</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-xs-12">
+                        <div class="block-user">
+                            <img src="assets/images/about/about-2.png"/>
+                            <p style="padding-top: 10px;">Сиринова Ольга Владимировна</p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            </section>
 
         <!-- start about-section -->
         <section id="about" class="about-section section-padding">
@@ -151,6 +162,12 @@
                 <div class="row">
                     <div class="col-md-5th col-xs-12">
                         <div class="block hover-shadow" style="height: 200px"  data-aos="zoom-in">
+                            <img src="assets/svg/cards/icons-date.svg" alt/><br/>
+                            <p class="text-center">25 лет работы</p>
+                        </div>
+                    </div>
+                    <div class="col-md-5th col-xs-12">
+                        <div class="block hover-shadow" style="height: 200px"  data-aos="zoom-in">
                             <img src="assets/svg/cards/icon-percent.svg" alt/><br/>
                             <p class="text-center">Подавляющее большинство выигранных дел</p>
                         </div>
@@ -159,12 +176,6 @@
                         <div class="block hover-shadow" style="height: 200px"  data-aos="zoom-in">
                             <img src="assets/svg/cards/icon-user.svg" alt/><br/>
                             <p class="text-center">Выдающиеся специалисты</p>
-                        </div>
-                    </div>
-                    <div class="col-md-5th col-xs-12">
-                        <div class="block hover-shadow" style="height: 200px"  data-aos="zoom-in">
-                            <img src="assets/svg/cards/icons-date.svg" alt/><br/>
-                            <p class="text-center">25 лет работы</p>
                         </div>
                     </div>
                     <div class="col-md-5th col-xs-12">
@@ -276,7 +287,7 @@
                                 <div class="cta-logo">
                                     <img src="assets/images/cta-logo.png" alt>
                                 </div>
-                                <h5>Звните нам 24/7</h5>
+                                  
                                 <h2>8 812-326-87-41</h2>
                                 <a href="#contacts" class="theme-btn-s3">Записаться на прием</a>
                             </div>
@@ -336,17 +347,17 @@
 
                 <div class="row">
                     <div class="col col-lg-3 col-sm-6">
-                        <div class="feature-grid text-center" data-aos="zoom-in" >
+                        <div class="feature-grid text-center hover-shadow" data-aos="zoom-in" >
                             <div class="flex align-center justify-center text-justify">
                                 <img src="assets/svg/steps/Group.svg">
                             </div>
                             <h3 class="card-title">Оставьте заявку</h3>
                             <p class="card-description" style="text-align: center;">8 (812) 326-87-41<br/>vs.lawoffice.spb@gmail.com</p>
-                            <a href='#contacts' class="theme-btn-s3 btn-card" style="text-align: center;">Связатся с нами</a>
+                            <a href='#contacts' class="theme-btn-s3 btn-card" style="text-align: center;">Связаться с нами</a>
                         </div>
                     </div>
                     <div class="col col-lg-3 col-sm-6">
-                        <div class="feature-grid text-center" data-aos="zoom-in">
+                        <div class="feature-grid text-center hover-shadow" data-aos="zoom-in">
                             <div class="flex align-center justify-center ">
                                 <img src="assets/svg/steps/Group-1.svg">
                             </div>
@@ -355,7 +366,7 @@
                         </div>
                     </div>
                     <div class="col col-lg-3 col-sm-6">
-                        <div class="feature-grid text-center" data-aos="zoom-in">
+                        <div class="feature-grid text-center hover-shadow" data-aos="zoom-in">
                             <div class="flex align-center justify-center">
                                 <img src="assets/svg/steps/Group-2.svg">
                             </div>
@@ -364,7 +375,7 @@
                         </div>
                     </div>
                     <div class="col col-lg-3 col-sm-6">
-                        <div class="feature-grid text-center"data-aos="zoom-in">
+                        <div class="feature-grid text-center hover-shadow"data-aos="zoom-in">
                             <div class="flex align-center justify-center">
                                 <img src="assets/svg/steps/Group-3.svg">
                             </div>
@@ -705,7 +716,7 @@
 
         <script type="text/javascript">
             document.addEventListener('DOMContentLoaded', () => {
-                AOS.init({duration:500});
+                AOS.init({duration:800});
 
                 const contactForm = document.querySelector('#contactForm');
                 contactForm.addEventListener('submit', (e) => {
