@@ -485,9 +485,9 @@
 }
 
 .block-user {
-  width: 300px;
+  width: 340px;
   margin: 5px auto;
-  margin-top: -100px;
+  margin-top: -200px;
   box-sizing: border-box;
   border-radius: 8px;
   text-align: center;
@@ -556,10 +556,61 @@ p.card-description {
   }
 }
 
-.img-bg-gray{
+.img-bg-gray {
   background-color: #eee;
 }
 
-.widget li{
+.widget li {
   font-size: 14px !important;
+}
+
+.hero-style-1 .slide-title h1 {
+  font-size: 74px;
+  margin-bottom: 10px;
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 800;
+}
+
+@media (max-width: 991px) {
+  .hero-style-1 .slide-title h1 {
+    font-size: 55px;
+    font-size: 3.4375rem;
+  }
+}
+
+@media (max-width: 767px) {
+  .hero-style-1 .slide-title h1 {
+    font-size: 45px;
+    font-size: 2.8125rem;
+  }
+}
+
+.hero-style-1 .slide-text p {
+  font-size: 32px;
+  margin-bottom: 50px;
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+}
+
+@media (max-width: 767px) {
+  .hero-style-1 .slide-text p {
+    font-size: 16px;
+    font-size: 1rem;
+  }
+}
+.hero-style-1 .slide-title {
+  max-width: 800px;
+}
+
+@media (max-width: 991px) {
+  .hero-style-1 .slide-title {
+    margin: 0 auto;
+    text-align: center;
+  }
+}
+
+.section-title-s3 h2{
+  font-family: Verdana, Geneva, Tahoma, sans-serif !important;
 }
